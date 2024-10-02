@@ -45,12 +45,3 @@ To run this project locally, follow these steps:
     ```bash
     flutter run
     ```
-
-## API Integration
-
-The app interacts with a REST API to fetch product data and handle user actions like adding to the cart, managing orders, and authentication. Ensure the API server is running and configured correctly in the app.
-
-## Project Structure
-
-This project follows a modular structure with BLoC for separating business logic from the UI:
-
