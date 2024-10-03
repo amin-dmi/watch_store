@@ -1,16 +1,47 @@
-# watch_store
+# Watch Store App
 
-A new Flutter project.
+This project is a **Watch Store** application developed using **Flutter** and the **BLoC** (Business Logic Component) pattern for state management. It interacts with a **REST API** to handle the store's data and user requests, providing a seamless experience for browsing and purchasing watches.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Browse a wide variety of watches
+- View detailed information for each product
+- Add items to cart and manage purchases
+- User authentication (login/register)
+- Fetch and display data in real-time from the backend via REST API
+- Persistent state management using BLoC
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter**: For building the cross-platform mobile app
+- **BLoC Pattern**: For efficient state management
+- **REST API**: For server communication
+- **Dart**: Programming language
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/amin-dmi/watch-store-app.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd watch-store-app
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    flutter pub get
+    ```
+
+4. Run the app:
+
+    ```bash
+    flutter run
+    ```
