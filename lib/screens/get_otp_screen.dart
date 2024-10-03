@@ -26,12 +26,12 @@ class GetOtpScreen extends StatelessWidget {
             Text(
               AppStrings.otpCodeSendFor
                   .replaceAll(AppStrings.replace, "01959300142"),
-              style: LightAppTextStyle.title,
+              style: AppTextStyle.title,
             ),
             AppDimens.small.height,
             Text(
               AppStrings.wrongNumberEditNumber,
-              style: LightAppTextStyle.primaryThemeTextStylr,
+              style: AppTextStyle.primaryThemeTextStylr,
             ),
             (AppDimens.large * 2).height,
             AppTextFeild(

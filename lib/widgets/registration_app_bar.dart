@@ -24,7 +24,7 @@ class RegistetonAppBar extends StatelessWidget  implements PreferredSizeWidget{
                 )),
             Text(
               AppStrings.register,
-              style: LightAppTextStyle.title,
+              style: AppTextStyle.title,
             )
           ],
         ),

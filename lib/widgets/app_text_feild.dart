@@ -34,8 +34,8 @@ class AppTextFeild extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(perFixLabel,style: LightAppTextStyle.hint,),
-                Text(lable,style: LightAppTextStyle.title,),
+                Text(perFixLabel,style: AppTextStyle.hint,),
+                Text(lable,style: AppTextStyle.title,),
               ],
             ),
           ),
@@ -46,7 +46,7 @@ class AppTextFeild extends StatelessWidget {
             child: TextField(              
               textAlign: textAlign,
               keyboardType: inputType,
-              decoration: InputDecoration(hintText: hint, prefixIcon: icon,hintStyle: LightAppTextStyle.hint),
+              decoration: InputDecoration(hintText: hint, prefixIcon: icon,hintStyle: AppTextStyle.hint),
             ),
           ),
         ],

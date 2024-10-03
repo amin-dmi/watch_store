@@ -43,8 +43,8 @@ class BtmNavItem extends StatelessWidget {
               Text(
                 text,
                 style: isActive
-                    ? LightAppTextStyle.btmNavActive
-                    : LightAppTextStyle.btmNavInActive,
+                    ? AppTextStyle.btmNavActive
+                    : AppTextStyle.btmNavInActive,
               )
             ],
           ),

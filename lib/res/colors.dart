@@ -40,4 +40,9 @@ class AppColors {
     Color(0xFF8396E1),
     Color(0xFFE6FCFF)
   ];
+
+    static const List<Color> productBgGradiant = [
+    Color.fromARGB(255, 230, 230, 230),
+    Color.fromARGB(255, 255, 255, 255)
+  ];
 }

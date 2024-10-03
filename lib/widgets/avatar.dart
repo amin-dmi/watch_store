@@ -17,7 +17,7 @@ class Avatar extends StatelessWidget {
           child: Image.asset(Assets.png.avatar.path),
         ),
         AppDimens.medium.height,
-        Text(AppStrings.chooseProfileImage,style: LightAppTextStyle.avataTextStyle)
+        Text(AppStrings.chooseProfileImage,style: AppTextStyle.avataTextStyle)
       ],
     );
   }

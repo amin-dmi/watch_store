@@ -2,14 +2,22 @@ import 'package:flutter/material.dart';
 import 'package:watch_store/gen/fonts.gen.dart';
 import 'package:watch_store/res/colors.dart';
 
-class LightAppTextStyle {
+class AppTextStyle {
   
-  LightAppTextStyle._();
+  AppTextStyle._();
 
 static TextStyle title=const TextStyle(
   fontFamily: FontFamily.dana300,
   fontSize: 14.0,
   color: AppColors.title
+);
+
+
+static TextStyle productBgTitle=const TextStyle(
+  fontFamily: FontFamily.dana300,
+  fontSize: 16.0,
+  color: AppColors.title,
+  fontWeight: FontWeight.normal
 );
 
 static TextStyle hint=const TextStyle(

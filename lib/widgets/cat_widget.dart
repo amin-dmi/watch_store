@@ -46,7 +46,7 @@ class CatWidget extends StatelessWidget {
           ),
           Text(
             title,
-            style: LightAppTextStyle.title.copyWith(fontSize: 16),
+            style: AppTextStyle.title.copyWith(fontSize: 16),
           ),
         ],
       ),

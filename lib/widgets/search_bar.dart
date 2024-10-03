@@ -38,7 +38,7 @@ class SearchBtn extends StatelessWidget {
               SvgPicture.asset(Assets.svg.search),
               Text(
                 AppStrings.searchProduct,
-                style: LightAppTextStyle.hint,
+                style: AppTextStyle.hint,
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
