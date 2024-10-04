@@ -20,6 +20,13 @@ static TextStyle productBgTitle=const TextStyle(
   fontWeight: FontWeight.normal
 );
 
+
+static TextStyle productTimerStyle= const  TextStyle(
+  fontFamily: FontFamily.dana300,
+  fontSize: 17.0,
+  color:Colors.blue,
+  fontWeight: FontWeight.normal
+);
 static TextStyle hint=const TextStyle(
   fontFamily: FontFamily.dana300,
   fontSize: 14.0,
@@ -27,12 +34,33 @@ static TextStyle hint=const TextStyle(
 );
 
 
-static TextStyle avataTextStyle=const TextStyle(
+
+static TextStyle oldPriceStyle=const TextStyle(
+  fontFamily: FontFamily.dana300,
+  fontSize: 12.0,
+  color: AppColors.oldPrioceColor,
+  fontWeight: FontWeight.w400,
+  decoration: TextDecoration.lineThrough
+);
+
+
+static TextStyle avatarTextStyle=const TextStyle(
   fontFamily: FontFamily.dana300,
   fontSize: 11.0,
   color: AppColors.title,
   fontWeight: FontWeight.w300
 );
+
+
+static TextStyle amazingTextSyle=const TextStyle(
+  fontFamily: FontFamily.dana300,
+  fontSize: 22.0,
+  color: AppColors.amazingColors,
+  fontWeight: FontWeight.w800
+);
+
+
+
 static TextStyle mainButtonStyle=const TextStyle(
   fontFamily: FontFamily.dana300,
   fontSize: 15.0,

@@ -16,6 +16,8 @@ class AppColors {
   static const Color surfaceColor = Color.fromARGB(255, 243, 243, 243);
   static const Color primaryColor = Color.fromARGB(255, 0, 117, 251);
 
+  static const Color amazingColors = Color.fromARGB(255, 57, 24, 80);
+
   static const Color focusedTextFeild = Colors.white;
   static const Color unfocusedTextFeild = Color.fromARGB(255, 251, 251, 251);
   static const Color mainButtonText = Color.fromARGB(255, 255, 255, 255);
@@ -23,6 +25,8 @@ class AppColors {
   static const Color btmNavColors = Color.fromARGB(255, 255, 255, 255);
   static const Color btmNavActiveItem = Color.fromARGB(255, 0, 0, 0);
   static const Color btmNavInActiveItem = Color.fromARGB(255, 196, 196, 196);
+
+  static const Color oldPrioceColor = Color.fromARGB(255, 145, 145, 145);
 
   static const List<Color> catClasicColors = [
     Color.fromARGB(255, 255, 166, 114),

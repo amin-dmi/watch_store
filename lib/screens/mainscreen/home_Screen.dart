@@ -8,6 +8,7 @@ import 'package:watch_store/res/dimens.dart';
 import 'package:watch_store/res/strings.dart';
 import 'package:watch_store/widgets/app_slider.dart';
 import 'package:watch_store/widgets/cat_widget.dart';
+import 'package:watch_store/widgets/product_item.dart';
 import 'package:watch_store/widgets/search_bar.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -63,63 +64,19 @@ class HomeScreen extends StatelessWidget {
                     SizedBox(
                       height: 300,
                       child: ListView.builder(
-                        physics: ClampingScrollPhysics(),
+                        physics: const ClampingScrollPhysics(),
                         scrollDirection: Axis.horizontal,
                         itemCount: 8,
                         shrinkWrap: true,
-                        itemBuilder: (context, index) => Container(
-                          padding: EdgeInsets.all(AppDimens.small),
-                          margin: const EdgeInsets.all(AppDimens.medium),
-                          decoration: BoxDecoration(
-                            borderRadius:
-                                BorderRadius.circular(AppDimens.medium),
-                            gradient: const LinearGradient(
-                              begin: Alignment.topCenter,
-                              end: Alignment.bottomCenter,
-                              colors: AppColors.productBgGradiant,
-                            ),
-                          ),
-                          width: 200,
-                          height: 298,
-                          child: Column(
-                            children: [
-                              Image.asset(Assets.png.unnamed.path),
-                              Align(
-                                alignment: Alignment.centerRight,
-                                child: Text(
-                                  "ساعت مردانه",
-                                  style: AppTextStyle.productBgTitle,
-                                ),
-                              ),
-                              Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Column(
-                                    children: [
-                                      Text("63,500 تومان"),
-                                      Text("12,200"),
-                                    ],
-                                  ),
-                                  Container(
-                                    padding: EdgeInsets.all(AppDimens.small*.5),
-                                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(60),color: Colors.red),
-                                    child: Text("20 %"),
-                                  ),
-                                ],
-                              ),
+                        itemBuilder: (context, index) => 
+                        
+                        //ProductCard
+                       const ProductItem(productName: "ساعت مردانه",price:20000 ,diacount: 20,time: 100,),
 
-                              Container(
-                                height: 2,
-                                width: double.infinity,
-                                color: Colors.blue,
-                              ),
-                              Text("09:20:12")
-                            ],
-                          ),
-                        ),
+
                       ),
                     ),
-                    VerticalText(),
+                    const VerticalText(),
                   ],
                 ),
               ),
@@ -130,6 +87,7 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
+
 
 class VerticalText extends StatelessWidget {
   const VerticalText({super.key});
@@ -144,11 +102,14 @@ class VerticalText extends StatelessWidget {
           children: [
             Row(
               children: [
-                SvgPicture.asset(Assets.svg.back),
-                Text("مشاهده همه"),
+                Transform.rotate(
+                  angle: 1.5,
+                  child: SvgPicture.asset(Assets.svg.back)),
+                  AppDimens.small.width,
+                const Text("مشاهده همه"),
               ],
             ),
-            Text("شگفت انگیز")
+             Text("شگفت انگیز",style: AppTextStyle.amazingTextSyle,)
           ],
         ),
       ),
