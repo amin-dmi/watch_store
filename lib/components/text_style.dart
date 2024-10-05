@@ -12,6 +12,12 @@ static TextStyle title=const TextStyle(
   color: AppColors.title
 );
 
+static TextStyle tagTitle=const TextStyle(
+  fontFamily: FontFamily.dana300,
+  fontSize: 14.0,
+  color: Color.fromARGB(255, 255, 255, 255)
+);
+
 
 static TextStyle productBgTitle=const TextStyle(
   fontFamily: FontFamily.dana300,

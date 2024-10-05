@@ -5,7 +5,7 @@ import 'package:watch_store/components/text_style.dart';
 class MainButton extends StatelessWidget {
   final String text;
   final void Function() onPressed;
-
+  
   MainButton({super.key, required this.text, required this.onPressed});
 
   @override

@@ -14,7 +14,7 @@ class BtmNavItem extends StatelessWidget {
     required this.iconSvgPath,
     required this.text,
     required this.isActive,
-    required this.onTap,
+    required this.onTap
   });
 
   @override
