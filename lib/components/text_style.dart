@@ -27,6 +27,21 @@ static TextStyle productBgTitle=const TextStyle(
 );
 
 
+static TextStyle productTitle=const TextStyle(
+  fontFamily: FontFamily.dana300,
+  fontSize: 16.0,
+  color: AppColors.title,
+  fontWeight: FontWeight.normal
+);
+
+static TextStyle caption= TextStyle(
+  fontFamily: FontFamily.dana300,
+  fontSize: 13.0,
+  color: AppColors.title.withAlpha(170),
+  fontWeight: FontWeight.normal
+);
+
+
 static TextStyle productTimerStyle= const  TextStyle(
   fontFamily: FontFamily.dana300,
   fontSize: 17.0,
